@@ -1,7 +1,12 @@
 # Review of Transfer Learning Methods in Deep Learning for Medical Image Classification
 
-Gurucharan M K, Shri Harini R, **"Review of Transfer Learning Methods in Deep Learning for Medical Image Classification,"** SSN College of Engineering, Chennai.
-Models implemented using Keras and TensorFlow.
+## Paper Reference
+
+Gurucharan M K, Shri Harini R, **"Review of Transfer Learning Methods in Deep Learning for Medical Image Classification,"**  
+SSN College of Engineering, Chennai.  
+[Read the full paper here](https://doi.org/10.13140/RG.2.2.25120.71684)
+
+
 
 ## Overview
 This repository provides a comprehensive review of **Transfer Learning** methods using **Convolutional Neural Networks (CNNs)** for medical image classification, specifically focusing on detecting tumors in Brain MRI scans. The project evaluates 16 pre-trained deep learning models available in the **Keras library with TensorFlow backend**, comparing their performance in classifying Brain MRI images as tumor or non-tumor.  
@@ -22,6 +27,7 @@ This repository provides a comprehensive review of **Transfer Learning** methods
    - Data augmentation was performed to expand the training set and prevent overfitting.
 2. **Transfer Learning Models**:
    - Models pre-trained on large datasets (e.g., ImageNet) were fine-tuned for Brain MRI classification.
+   - Models implemented using Keras and TensorFlow.
 3. **Hyperparameters**:
    - Consistent hyperparameters were used across models for fair comparison (e.g., optimizer, learning rate, and loss function).
 
